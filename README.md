@@ -1,3 +1,3 @@
-
-Sudarshan patil - # sdrshnptl
+# Sudarshan patil
+sdrshnptl
 Personal website/blog.
