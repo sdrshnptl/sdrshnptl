@@ -1,3 +1,3 @@
-# sdrshnptl
-Sudarshan patil -idealist, developer and blogger
+
+Sudarshan patil - # sdrshnptl
 Personal website/blog.
