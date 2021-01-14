@@ -1,3 +1,5 @@
 # Sudarshan patil
+
 sdrshnptl
-Personal website/blog.
+
+Embedded developer, toying with 3D printer and lot!!!
