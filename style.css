@@ -698,10 +698,14 @@ section {
 }
 
 .connect-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    display: flex;
+    justify-content: center;
     align-items: start;
+}
+
+.connect-info {
+    flex: 1;
+    max-width: 600px;
 }
 
 .connect-card, .calendar-card {
@@ -1008,7 +1012,8 @@ section {
     }
 
     .connect-content {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        align-items: center;
         gap: 2rem;
     }
 
