@@ -1,6 +1,6 @@
 # Sudarshan Patil - Personal Portfolio
 
-A modern, responsive personal portfolio website built for GitHub Pages.
+A modern, responsive personal portfolio website for an Embedded Developer & Maker, built for GitHub Pages.
 
 ## 🚀 Features
 
@@ -19,12 +19,26 @@ A modern, responsive personal portfolio website built for GitHub Pages.
 - **Icons**: Font Awesome 6
 - **Calendar**: Google Calendar integration
 
-## 📱 Sections
+## � Professional Focus
+
+**Embedded Development & IoT**
+- ESP32 and microcontroller programming
+- Modbus protocol implementations
+- Over-the-Air (OTA) update systems
+- Industrial automation solutions
+
+**Electronics & Making**
+- 3D printing and prototyping
+- DIY electronics projects
+- PCB design and hardware development
+- IoT device integration
+
+## �📱 Sections
 
 1. **Hero**: Introduction with typing animation and profile
-2. **About**: Personal story, skills, and statistics
-3. **Projects**: Featured work with live demos and GitHub links
-4. **Experience**: Professional timeline
+2. **About**: Personal story, skills, and statistics (227+ GitHub repos)
+3. **Projects**: Featured work including ESP32-OTA-Pull, Modbus implementations, Browser MQTT Client
+4. **Experience**: Professional timeline at OptifyIndustrialSolutions
 5. **Blog**: Latest articles and thoughts
 6. **Connect & Book**: Contact methods and meeting scheduler
 7. **Footer**: Additional links and information

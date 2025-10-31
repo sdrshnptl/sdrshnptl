@@ -51,11 +51,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // ===== TYPING ANIMATION =====
 const typingTexts = [
-    'Full-Stack Developer',
-    'Software Engineer',
-    'Tech Enthusiast',
-    'Problem Solver',
-    'Code Artist'
+    'Embedded Developer',
+    'Electronics Maker',
+    'IoT Engineer',
+    'Automation Expert',
+    '3D Printing Enthusiast'
 ];
 
 let textIndex = 0;
