@@ -23,6 +23,16 @@ body {
     padding: 0 20px;
 }
 
+/* ===== X (TWITTER) ICON FALLBACK ===== */
+.fa-x-twitter::before {
+    content: "\1d54f"; /* Unicode for X if fa-x-twitter doesn't exist */
+}
+
+/* Fallback to Twitter icon if X icon is not available */
+.fab.fa-x-twitter:not(.fa-x-twitter)::before {
+    content: "\f099"; /* Twitter icon fallback */
+}
+
 /* ===== TYPOGRAPHY ===== */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
@@ -322,8 +332,7 @@ a {
 .hero-social {
     position: absolute;
     left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
+    bottom: 20px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -999,6 +1008,8 @@ section {
         justify-content: center;
         transform: none;
         margin-top: 2rem;
+        left: auto;
+        bottom: auto;
     }
 
     .about-content {
