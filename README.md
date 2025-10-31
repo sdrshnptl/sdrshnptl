@@ -1,4 +1,4 @@
-# Sudarshan Patel - Personal Portfolio
+# Sudarshan Patil - Personal Portfolio
 
 A modern, responsive personal portfolio website built for GitHub Pages.
 
@@ -83,4 +83,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Built with ❤️ by [Sudarshan Patel](https://sudarshanpatil.com) | Find me everywhere as @sdrshnptl
+Built with ❤️ by [Sudarshan Patil](https://sudarshanpatil.com) | Find me everywhere as @sdrshnptl

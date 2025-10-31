@@ -203,7 +203,7 @@ if (profileImg) {
     
     // Add error handling for profile image
     profileImg.addEventListener('error', () => {
-        profileImg.src = `https://ui-avatars.com/api/?name=Sudarshan+Patel&size=300&background=1e3a8a&color=ffffff&bold=true`;
+        profileImg.src = `https://ui-avatars.com/api/?name=Sudarshan+Patil&size=300&background=1e3a8a&color=ffffff&bold=true`;
     });
 }
 
@@ -352,7 +352,7 @@ function optimizeImages() {
         img.loading = 'lazy';
         
         // Add error handling
-        img.addEventListener('error', function() {
+        img.addEventListener('error', () => {
             this.style.opacity = '0.5';
             console.warn('Failed to load image:', this.src);
         });
@@ -421,7 +421,7 @@ window.addEventListener('error', (e) => {
 
 // ===== INITIALIZATION =====
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('🚀 Sudarshan Patel\'s website loaded successfully!');
+    console.log('🚀 Sudarshan Patil\'s website loaded successfully!');
     
     // Initialize all features
     initializeCalendar();
