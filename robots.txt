@@ -1,0 +1,17 @@
+# Sitemap for https://sudarshanpatil.com
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://sudarshanpatil.com/sitemap.xml
+
+# Disallow crawling of any admin or private files
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Allow crawling of main content
+Allow: /index.html
+Allow: /style.css
+Allow: /script.js
