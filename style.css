@@ -330,12 +330,7 @@ a {
 }
 
 .hero-social {
-    position: absolute;
-    left: 20px;
-    bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    display: none; /* Hide on desktop to prevent overlap */
 }
 
 .hero-social a {
@@ -1003,6 +998,7 @@ section {
     }
 
     .hero-social {
+        display: flex; /* Show on mobile */
         position: static;
         flex-direction: row;
         justify-content: center;
