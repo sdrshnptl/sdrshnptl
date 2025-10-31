@@ -778,6 +778,7 @@ section {
     transition: all 0.5s ease;
     min-width: 120px;
     display: inline-block;
+    text-align: right;
 }
 
 .username-constant {
