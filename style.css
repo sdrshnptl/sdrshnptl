@@ -961,6 +961,24 @@ section {
     transform: translateY(-2px);
 }
 
+.visitor-counter {
+    text-align: center;
+    padding: 0.5rem 0;
+    opacity: 0.6;
+    margin-top: 1rem;
+    font-size: 10px;
+}
+
+.visitor-counter a {
+    color: #999;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.visitor-counter a:hover {
+    color: #ccc;
+}
+
 /* ===== ANIMATIONS ===== */
 @keyframes blink {
     0%, 50% { opacity: 1; }
