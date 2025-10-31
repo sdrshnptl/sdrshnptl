@@ -768,6 +768,31 @@ section {
 .contact-value {
     font-weight: 600;
     color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.social-prefix {
+    color: #1e3a8a;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    min-width: 120px;
+    display: inline-block;
+}
+
+.username-constant {
+    color: #333;
+    font-weight: 600;
+}
+
+.social-prefix.fade-out {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.social-prefix.fade-in {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .copy-btn {

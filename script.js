@@ -49,6 +49,51 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+// ===== SOCIAL MEDIA URL ANIMATION =====
+const socialPrefixes = [
+    'github.com/',
+    'linkedin.com/in/',
+    'x.com/',
+    'instagram.com/',
+    'medium.com/@',
+    'dev.to/'
+];
+
+let currentPrefixIndex = 0;
+let socialPrefixElement = null;
+
+function initializeSocialAnimation() {
+    socialPrefixElement = document.getElementById('social-prefix');
+    if (socialPrefixElement) {
+        // Start the animation after a delay
+        setTimeout(startSocialAnimation, 2000);
+    }
+}
+
+function startSocialAnimation() {
+    if (!socialPrefixElement) return;
+    
+    setInterval(() => {
+        // Fade out current prefix
+        socialPrefixElement.classList.add('fade-out');
+        
+        setTimeout(() => {
+            // Change to next prefix
+            currentPrefixIndex = (currentPrefixIndex + 1) % socialPrefixes.length;
+            socialPrefixElement.textContent = socialPrefixes[currentPrefixIndex];
+            
+            // Fade in new prefix
+            socialPrefixElement.classList.remove('fade-out');
+            socialPrefixElement.classList.add('fade-in');
+            
+            setTimeout(() => {
+                socialPrefixElement.classList.remove('fade-in');
+            }, 500);
+        }, 250);
+        
+    }, 3000); // Change every 3 seconds
+}
+
 // ===== TYPING ANIMATION =====
 const typingTexts = [
     'Embedded Developer',
@@ -428,6 +473,7 @@ document.addEventListener('DOMContentLoaded', () => {
     detectUserPreference();
     optimizeImages();
     enhanceAccessibility();
+    initializeSocialAnimation();
     
     // Animate elements after a short delay
     setTimeout(() => {
